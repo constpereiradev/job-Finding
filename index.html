@@ -11,6 +11,22 @@
 <body>
     <header class="header">
 
+        <div class="menu-mobile">
+            
+            <svg class="svg" viewBox="0 0 20 20">
+                <path fill="#5F59EC" d="M3.314,4.8h13.372c0.41,0,0.743-0.333,0.743-0.743c0-0.41-0.333-0.743-0.743-0.743H3.314
+                    c-0.41,0-0.743,0.333-0.743,0.743C2.571,4.467,2.904,4.8,3.314,4.8z M16.686,15.2H3.314c-0.41,0-0.743,0.333-0.743,0.743
+                    s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,15.2,16.686,15.2z M16.686,9.257H3.314
+                    c-0.41,0-0.743,0.333-0.743,0.743s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,9.257,16.686,9.257z"></path>
+            </svg>
+
+            <div class="logo-mobile">
+
+                <h1>Findjob!</h1>
+    
+            </div>
+        </div>
+
         
         <div class="logo">
 
@@ -22,7 +38,7 @@
             <button id="btn-sing-up"><b>Sing up</b></button>
         </div>
 
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Circle_%28transparent%29.svg" alt="">
+        <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Circle_%28transparent%29.svg" alt="">
 
         <nav class="navegacao">
             <ul>
@@ -37,12 +53,20 @@
 
     <main class="main">
 
-        
-
         <section class="landing">
 
-            <div class="texto">
-                <h2>Let's find your dream job with Findjob!</h2>
+            <div class="texto-mobile">
+                <h2 id="texto-mobile">Let's find your dream job with Findjob!</h2>
+                <p id="paragrafo-mobile">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aliquam, aut! Repellendus quis placeat veritatis temporibus
+                    ratione eius.
+
+                </p>
+            </div>
+
+            <div class="texto-desktop">
+                <h2 id="texto-desktop">Let's find your dream job with Findjob!</h2>
 
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -51,6 +75,38 @@
                      ad officia. Animi quidem laborum id iste vitae!
 
                 </p>
+            </div>
+
+            <div class="pesquisa-mobile">
+
+                <form action="#">
+
+                    <div class="form-mobile">
+
+                        <svg class="icon" viewBox="0 0 20 20">
+                            
+							<path fill="white" d="M18.109,17.776l-3.082-3.081c-0.059-0.059-0.135-0.077-0.211-0.087c1.373-1.38,2.221-3.28,2.221-5.379c0-4.212-3.414-7.626-7.625-7.626c-4.212,0-7.626,3.414-7.626,7.626s3.414,7.627,7.626,7.627c1.918,0,3.665-0.713,5.004-1.882c0.006,0.085,0.033,0.17,0.098,0.234l3.082,3.081c0.143,0.142,0.371,0.142,0.514,0C18.25,18.148,18.25,17.918,18.109,17.776zM9.412,16.13c-3.811,0-6.9-3.089-6.9-6.9c0-3.81,3.089-6.899,6.9-6.899c3.811,0,6.901,3.09,6.901,6.899C16.312,13.041,13.223,16.13,9.412,16.13z"></path>
+						</svg>
+                        
+                        
+                        <input class="input" type="text" name="titulo-trabalho" placeholder="Job title">
+
+                       
+
+                        <svg class="icon" viewBox="0 0 20 20">
+							<path fill="white" d="M10,1.375c-3.17,0-5.75,2.548-5.75,5.682c0,6.685,5.259,11.276,5.483,11.469c0.152,0.132,0.382,0.132,0.534,0c0.224-0.193,5.481-4.784,5.483-11.469C15.75,3.923,13.171,1.375,10,1.375 M10,17.653c-1.064-1.024-4.929-5.127-4.929-10.596c0-2.68,2.212-4.861,4.929-4.861s4.929,2.181,4.929,4.861C14.927,12.518,11.063,16.627,10,17.653 M10,3.839c-1.815,0-3.286,1.47-3.286,3.286s1.47,3.286,3.286,3.286s3.286-1.47,3.286-3.286S11.815,3.839,10,3.839 M10,9.589c-1.359,0-2.464-1.105-2.464-2.464S8.641,4.661,10,4.661s2.464,1.105,2.464,2.464S11.359,9.589,10,9.589">
+                            </path>
+						</svg>
+
+                        <input class="input" type="text" name="titulo-trabalho" placeholder="Zip code">
+
+
+                        <input type="submit" value="Search" class="submit">
+                        
+
+
+                </form>
+
             </div>
 
 
@@ -92,6 +148,14 @@
     <section class="about-us"> 
 
         <div class="marcas">
+            <div class="marca">airbnb</div>
+            <div class="marca">Microsoft</div>
+            <div class="marca">Walmart</div>
+            <div class="marca">FedEx</div>
+            <div class="marca">Aplhabet</div>
+        </div>
+
+        <div class="marcas-mobile">
             <div class="marca">airbnb</div>
             <div class="marca">Microsoft</div>
             <div class="marca">Walmart</div>
@@ -288,7 +352,7 @@
                 <p class="passo">Step 1</p>
                 <h2>Pick a video resume template</h2>
 
-                <p>
+                <p class="explicacao">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Sapiente minima blanditiis, nesciunt atque nulla ex.
                 </p>
@@ -300,7 +364,7 @@
                 <p class="passo">Step 2</p>
                 <h2>Personalize the template</h2>
 
-                <p>
+                <p class="explicacao">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Sapiente minima blanditiis, nesciunt atque nulla ex.
                 </p>
@@ -312,7 +376,7 @@
                 <p class="passo">Step 3</p>
                 <h2>Share your video resume</h2>
 
-                <p>
+                <p class="explicacao">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Sapiente minima blanditiis, nesciunt atque nulla ex.
                 </p>

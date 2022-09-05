@@ -58,6 +58,318 @@ body::-webkit-scrollbar-thumb {
     padding: 40px 0px 0px 80px;
 }
 
+/*mobiles*/
+
+.menu-mobile, .logo-mobile .svg, .landing .texto-mobile,
+.pesquisa-mobile {
+    
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    /*tudo que irá sumir*/
+
+    .header .gradiente, .logo, .navegacao, .texto-desktop,
+    .pesquisa, #header-img {
+        display: none;
+    }
+
+    /*hiddens*/
+
+    .marcas {
+        visibility: hidden;
+    }
+
+    .header {
+        padding: 30px;
+
+       
+    }
+
+    .menu-mobile {
+
+        display: block;
+
+    }
+
+
+    .header .menu-mobile .svg {
+
+        width: 70px;
+        display: block;
+
+        float: left;
+        color: var(--texto-grande);
+
+    }
+
+    .menu-mobile .logo-mobile {
+
+        font-size: 20px;
+        float: right;
+
+        color: var(--texto-grande);        
+    }
+
+    /*main*/
+
+    .main .landing .texto-mobile {
+        
+        display: block;
+    }
+
+    .main .landing .texto-mobile #texto-mobile{
+
+        font-size: 58px;
+
+        margin: 200px 100px 20px 100px;
+        display: block;
+        width: 400px;
+
+        
+    }
+
+
+    .texto-mobile #paragrafo-mobile {
+        
+        width: 400px;
+        display: block;
+        margin: 0px 100px 100px 100px;
+
+        color: var(--descricoes);
+        font-size: 20px;
+    }
+
+    /*botao de pesquisa*/
+
+    .pesquisa-mobile {
+
+        width: fit-content;
+
+        width: 100vw;
+        height: 100%;
+
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        
+    }
+
+    .pesquisa-mobile .icon {
+        width: 40px;
+
+        display: block;
+        columns: white;
+
+    }
+
+    .pesquisa-mobile .form-mobile {
+
+        display: flex;
+        
+
+        width: fit-content;
+        height: 100%;
+
+        display: flex;
+        justify-content: center;
+
+        background-color: var(--botoes);
+
+        padding: 10px 10px 10px 10px;
+
+        border-radius: 50px;
+    }
+
+    .form-mobile .input{
+
+        border: none;
+        height: 50px;
+        background-color: transparent;
+
+        color: white;
+
+    }
+    .form-mobile .input::focus{
+
+        outline: 0;
+        box-shadow: 0;
+
+    }
+
+    .form-mobile .input::-webkit-input-placeholder{
+
+        color: white;
+        font-size: 22px;
+        padding: 10px;
+
+    }
+
+    .form-mobile .submit {
+        background-color: white;
+        color: var(--botoes);
+    
+        border: none;
+        border-radius: 40px;
+    
+        height: 55px;
+        width: 135px;
+        
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+
+    /*marcas*/
+    .about-us .marcas-mobile .marca{
+
+        display: flex;
+    
+        flex-direction: column;
+        justify-content: center;
+
+        align-items: center;
+        margin-bottom: 80px;
+
+        width: 100vw;
+        height: 100%;
+        font-size: 38px;
+    }
+    
+
+    /*about us*/
+
+    .about-us {
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+    .about-us .texto-sobre p {
+        font-size: 22px;
+        
+    }
+    .fundo h4 {
+        font-size: 24px;
+    }
+    
+    .fundo p {
+        font-size: 22px;
+    }
+
+    .servicos, .trending {
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .servicos .texto-servicos #titulo, .texto-trending .titulo {
+        font-size: 22px;
+    
+    }
+    
+    .servicos .texto-servicos #descricao{
+        padding: 40px 80px 40px 80px;
+        font-size: 22px;
+        width: 50px;
+
+
+    }
+
+    /*categorias*/
+
+    .texto-trending p {
+        margin: 20px;
+
+        font-size: 22px;
+        width: 500px;
+        text-align: center;
+    }
+
+    .passo1, .passo2, .passo3, .trabalho1, .trabalho{
+
+        font-size: 22px;
+
+    }
+
+    .trabalho1 .representacao, .trabalho .representacao {
+
+        padding-right: 0px;
+    
+        margin-left: 0px;
+    }
+
+    #trabalho5 {
+        margin-right: 100px;
+    }
+
+
+    /*tutorial*/
+
+    .tutorial {
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+        
+    }
+
+    .tutorial .texto-tutorial .titulo {
+        color: var(--texto-grande);
+        font-size: 22px;
+    }
+
+    .tutorial .video {
+        text-align: center;
+
+        border-radius: 20px;
+        margin: 50px 0px 0px 0px;
+    }
+
+
+    .passo-a-passo .passo {
+        font-size: 22px;
+        
+    }
+
+    .passo-a-passo h2{
+        margin: 10px 0px 30px 0px;
+    
+        font-size: 26px;
+    }
+    .passo-a-passo .explicacao{
+      
+        font-size: 18px;
+    }
+
+    /*
+    .tutorial {
+    
+    }
+
+
+
+
+
+
+
+
+*/
+
+    
+}
+
 .navegacao ul li{
 
     float: right;

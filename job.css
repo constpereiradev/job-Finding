@@ -151,8 +151,10 @@ body::-webkit-scrollbar-thumb {
         height: 100%;
 
         display: flex;
-        justify-content: center;
+        align-items: center;
         margin-bottom: 50px;
+
+    
         
     }
 
@@ -192,7 +194,7 @@ body::-webkit-scrollbar-thumb {
 
     }
     .form-mobile .input::focus{
-
+        font-size: 22px;
         outline: 0;
         box-shadow: 0;
 
@@ -353,12 +355,86 @@ body::-webkit-scrollbar-thumb {
         font-size: 18px;
     }
 
-    /*
-    .tutorial {
+    .testemunhos {
+        margin-top: 400px;
     
+        display: flex;
+    
+        flex-direction: column;
+
+        align-items: center;
+
+
+        width: 100vw;
+        height: 100%;
+
+    }
+
+    .titulo-testemunho {
+        
+        font-size: 22px;
+    }
+    .descricao-testemunho {
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        width: 400px;
+        font-size: 20px;
+        text-align: center;
     }
 
 
+
+    /*subscribe*/
+
+    .container {
+        width: 400px;
+        margin: 0px;
+    }
+
+    .texto-subscribe p {
+        font-size: 22px;
+    }
+
+    .subscribe .form #email{
+        font-size: 20px;
+        border: none;
+    
+        height: 30px;
+    
+        width: 200px;
+    
+        border-radius: 10px;
+    
+        padding-left: 20px;
+    }
+
+
+    /*candidatos*/
+
+    .candidatos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        align-items: center;
+        
+    }
+
+    .candidatos .texto-candidatos #titulo {
+        font-size: 22px;
+        margin-top: 50px;
+    }
+
+    .candidatos .texto-candidatos p {
+        font-size: 22px;
+        width: 500px;
+    }
+    
+    .candidato p {
+        font-size: 22px;
+    }
+/*
 
 
 
@@ -843,14 +919,13 @@ body::-webkit-scrollbar-thumb {
 
 }
 
-.testemunhos .depoimento1 .titulo {
-
+.testemunhos .titulo-testemunho {
 
     color: var(--texto-grande);
     font-weight: bold;
 }
 
-.testemunhos .depoimento1 h1 {
+.testemunhos .h1-testemunho {
 
     width: 350px;
     font-size: 35px;
@@ -858,14 +933,14 @@ body::-webkit-scrollbar-thumb {
 
 }
 
-.testemunhos .texto-testemunho p {
-    background-color: pink;
+.testemunhos .titulo-testemunho {
+
     width: 350px;
     text-align: justify;
     padding: 0px 20px;
 
 }
-.testemunhos .depoimento1 p {
+.testemunhos .descricao-testemunho {
     
     margin-left: 20px;
     margin-right: 60px;
@@ -1010,7 +1085,6 @@ body::-webkit-scrollbar-thumb {
 
 .candidato {
     margin-top: 60px;
-    padding-left: 75px;
     text-align: center;
 
     width: fit-content;

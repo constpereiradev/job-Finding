@@ -479,8 +479,12 @@ body::-webkit-scrollbar-thumb {
     }
     .dado .img {
         width: 100px;
+        margin-left: 50px;
     }
 
+    #d3 .img, #d4 .img {
+        margin-left: 60px;
+    }
 
     /*perguntas*/
 
@@ -1174,19 +1178,17 @@ body::-webkit-scrollbar-thumb {
 .dados .container-dados {
     background-color: rgba(0, 128, 0, 0.063);
 
-    padding: 30px 0px 30px 100px;
+    padding: 0px;
 
-    margin: 150px 0px 150px 0px;
+    margin: 0px;
 
 }
 
 .dado {
     margin-top: 20px;
-    margin-right: 170px;
+    margin-right: 0px;
     width: fit-content;
-    
 
-    display: inline-block;
 
     text-align: center;
 
@@ -1199,7 +1201,7 @@ body::-webkit-scrollbar-thumb {
     color: var(--descricoes);
 }
 .dado h1 {
-    font-size: 33px;
+    font-size: 35px;
 }
 
 .dado .img {
@@ -1208,9 +1210,9 @@ body::-webkit-scrollbar-thumb {
     height: 50px;
     border-radius: 50%;
 
-    margin-left: 30px;
-
     margin-bottom: 20px;
+
+
 
 
 }
@@ -1224,12 +1226,8 @@ body::-webkit-scrollbar-thumb {
 #dado4 {
     background-color: rgba(255, 166, 0, 0.745);
 }
-#d4 .img{
-    margin-left: 40px;
-}
-#d4 {
-    margin-right: 0px;
-}
+
+
 
 
 
